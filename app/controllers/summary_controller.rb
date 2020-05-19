@@ -1,6 +1,6 @@
-class TestsController < ApplicationController
+class SummaryController < ApplicationController
 
-  def index
+  def history
     render json: [
           {
             value: false,
@@ -54,4 +54,17 @@ class TestsController < ApplicationController
           }
         ]
   end
+
+  def remaining
+    render json: [
+      {
+        value: false,
+        paidHoliday: '1',
+        substituteVacation: '2',
+        summerVacation: '3',
+        specialHoliday: '4'
+      }
+    ]
+  end
+
 end
