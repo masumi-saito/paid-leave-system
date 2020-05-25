@@ -1,7 +1,7 @@
 class ApplyController < ApplicationController
 
-  def apply
-    
+  def create
+    render jsom:[ ]
   end
 
 end
