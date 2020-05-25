@@ -1,7 +1,7 @@
 class ApplyController < ApplicationController
 
   def create
-    render json:[ ]
+    p params[:]
   end
 
 end
