@@ -1,0 +1,2 @@
+class CongratulationCondolenceLeave < ApplicationRecord
+end

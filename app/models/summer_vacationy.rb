@@ -1,0 +1,2 @@
+class SummerVacationy < ApplicationRecord
+end

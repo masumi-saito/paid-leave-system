@@ -1,0 +1,2 @@
+class PaidHoliday < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+class SubstituteVacation < ApplicationRecord
+end
