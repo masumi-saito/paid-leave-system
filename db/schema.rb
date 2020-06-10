@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_04_042650) do
+ActiveRecord::Schema.define(version: 2020_06_10_033906) do
 
   create_table "absences", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "menber_id"
@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 2020_06_04_042650) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "Menberid"
-    t.string "type"
+    t.string "paid_type"
     t.date "start_date"
     t.date "end_date"
     t.text "remarks"
